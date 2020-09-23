@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2020-09-18 12:25:08.731 +0530</field>
+    <field id="priority">50.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="timeSpent">2h</field>
+    <field id="title">Form menus</field>
+    <field id="type">task</field>
+</work-item>

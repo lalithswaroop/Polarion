@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2020-09-14 20:06:39.866 +0530</field>
+    <field id="homePageContent" text-type="text/html">
+        <![CDATA[<h2 id="polarion_wiki macro name=module-workitem;params=id=TP-391"></h2>
+<p id="polarion_1" style="margin-left: 40px;"><br>​​</p>
+<p id="polarion_2" style="margin-left: 40px;"><span style="font-family: 'Times New Roman', Times, serif;font-size: 14pt;">This functional requirement specification contains the description of the behavior of the System Access Subsystem, Manage Orders Subsystem. It includes a set of use cases that describes the interactions that user will have with the software. In addition to the use cases, this contains functional requirements, which defines the internal workings of the software as well as non-functional requirements, which impose constraints on design or implementation.</span></p>
+<p id="polarion_3" style="margin-left: 40px;">Yehi toh naya document<br>​​</p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-392"></h3>
+<ul id="polarion_4"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #222222;background-color: #FFFFFF;">Functional requirements specification helps to define the functionality of a system or one of its subsystems.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #222222;background-color: #FFFFFF;">Along with&nbsp;requirement&nbsp;analysis, it helps to identify missing&nbsp;requirements.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #222222;background-color: #FFFFFF;">They help clearly define the expected system service and behaviour.</span></li></ul>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-393"></h3>
+<p id="polarion_5" style="margin-left: 40px;"><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This FRS is intended for different types of users such as developers, testers, project managers, marketing staffs, users and documentation writers.</span></p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-394"></h3>
+<p id="polarion_6" style="margin-left: 40px;"><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This software product is for a client of Microgenesis company, by this module he/she can log into the order processing system, placing and cancelling an orders.</span></p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-395"></h3>
+<p id="polarion_7" style="margin-left: 40px;"><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This is the sample module for National Widgets company, which comprises of 2 modules: System Access Subsystem, Manage Orders Subsystem.</span></p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-396"></h3>
+<p id="polarion_8" style="margin-left: 40px;"><br>​​</p>
+<table id="polarion_9" style="empty-cells: show;border-collapse: collapse;margin: auto auto auto 0px;"><tr><th style="vertical-align: top;width: 213pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);padding-top: 0pt;padding-bottom: 0pt;padding-left: 5pt;padding-right: 5pt;text-align: left;"><p><span style="font-family: 'Times New Roman', Times, serif;font-size: 14pt;color: #000000;">Abbreviation</span></p></th><th style="vertical-align: top;width: 212pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);padding-top: 0pt;padding-bottom: 0pt;padding-left: 5pt;padding-right: 5pt;text-align: left;"><p><span style="font-family: 'Times New Roman', Times, serif;font-size: 14pt;color: #000000;">Acronym</span></p></th></tr><tr><td style="vertical-align: top;width: 213pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);padding-top: 0pt;padding-bottom: 0pt;padding-left: 5pt;padding-right: 5pt;"><p><span style="font-family: 'Times New Roman', Times, serif;font-size: 14pt;color: #0070C0;">HR</span></p></td><td style="vertical-align: top;width: 212pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);padding-top: 0pt;padding-bottom: 0pt;padding-left: 5pt;padding-right: 5pt;"><p><span style="font-family: 'Times New Roman', Times, serif;font-size: 14pt;color: #000000;">Human Resource</span></p></td></tr><tr><td style="vertical-align: top;width: 213pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);padding-top: 0pt;padding-bottom: 0pt;padding-left: 5pt;padding-right: 5pt;"><p><span style="font-family: 'Times New Roman', Times, serif;font-size: 14pt;color: #0070C0;">Dept.</span></p></td><td style="vertical-align: top;width: 212pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);padding-top: 0pt;padding-bottom: 0pt;padding-left: 5pt;padding-right: 5pt;"><p><span style="font-family: 'Times New Roman', Times, serif;font-size: 14pt;color: #000000;">Department</span></p></td></tr></table>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-397"></h3>
+<ol id="polarion_10"><li>Business requirement document</li><li>Software requirement specification document</li></ol>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=TP-398"></h2>
+<p id="polarion_11" style="margin-left: 40px;"><br>​​</p>
+<p id="polarion_12" style="margin-left: 40px;"><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;">In this system, there are two modules namely System Access Subsystem, Manage Orders Subsystem.</span></p>
+<p id="polarion_13" style="margin-left: 80px;"><span style="font-weight: bolder;font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;">System Access Subsystem:</span></p>
+<ul id="polarion_14"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;">In this module, the authorized user can login to the National widgets order processing system by entering the user name and password.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;">If in case he/she has forgotten the password, module has a feature called forgotten password where, the user can get new password and continue to login.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;">After successful login, the user can go through the National Widgets ordering system.</span></li></ul>
+<p id="polarion_15" style="margin-left: 80px;"><br>​​</p>
+<p id="polarion_16" style="margin-left: 80px;"><span style="font-weight: bolder;font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;">Manage Orders Subsystem:</span></p>
+<ul id="polarion_17"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;">In this module, the authorized user can place and cancel the order by entering the required details such as Shipping Name, Shipping Address, City, State and Zip, Product Information, Credit card Number, Expiration Date, Order Id, Cancel and Submit.</span></li></ul>
+<p id="polarion_18" style="margin-left: 80px;"><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;">After entering all the above, employee can submit/cancel his/her order.</span></p>
+<p id="polarion_19"><br>​​</p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-399"></h3>
+<p id="polarion_20" style="margin-left: 40px;"><br>​​</p>
+<div id="polarion_wiki macro name=module-workitem;params=id=TP-400"></div>
+<p id="polarion_21" style="margin-left: 80px;"><br><img src="attachment:image1.png"></p>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-401"></h5>
+<ul id="polarion_22"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide user name module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process allows the authorized users to enter their user name.</span></li></ul>
+<p id="polarion_23" style="margin-left: 80px;"><br>​​</p>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-402"></h5>
+<ul id="polarion_24"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide enter password module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process allows the authorized users to enter their password so, they can access the portal.</span></li></ul>
+<div id="polarion_wiki macro name=module-workitem;params=id=TP-447|layout=1"></div>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-403"></h5>
+<ul id="polarion_26"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide login module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process allows authorized users to access the portal.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-404"></h5>
+<ul id="polarion_27"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide forgot password module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process allows the authorized users to obtain new password on forgetting the older one.</span></li></ul>
+<h4 id="polarion_wiki macro name=module-workitem;params=id=TP-405"></h4>
+<p id="polarion_28" style="margin-left: 40px;"><img src="attachment:Picture_6.png"></p>
+<p id="polarion_29" style="margin-left: 80px;"><br>​​</p>
+<p id="polarion_30" style="margin-left: 80px;"><br>​​</p>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-406"></h5>
+<ul id="polarion_31"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide Shipping name module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process allows the authorized users to enter their Shipping name.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-407"></h5>
+<ul id="polarion_32"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide Shipping Address module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process allows the authorized users to enter their Shipping Address.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-408"></h5>
+<ul id="polarion_33"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide City, State and Zip code.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process allows the authorized users to enter their City, State and Zip code.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-409"></h5>
+<ul id="polarion_34"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide Product Information module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process will allow the authorized users to enter their product Information like product code, Description, Quantity, Price of each and Total price.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-410"></h5>
+<ul id="polarion_35"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide Credit card Number module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process will allow the authorized users to enter their credit card number.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-411"></h5>
+<ul id="polarion_36"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide Expiration Date module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process will allow the authorized users to enter their credit card expiration date.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-412"></h5>
+<ul id="polarion_37"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide Order Id module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process will allow the authorized users to enter their Order Id.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-413"></h5>
+<ul id="polarion_38"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide Cancel module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process will allow the authorized users to cancel their Order.</span></li></ul>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=TP-414"></h5>
+<ul id="polarion_39"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">System shall provide Submit module.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">This process will allow the authorized users to Submit their Order.</span></li></ul>
+<p id="polarion_40" style="margin-left: 40px;"><br>​​</p>
+<h4 id="polarion_wiki macro name=module-workitem;params=id=TP-415"></h4>
+<p id="polarion_41" style="margin-left: 40px;"><br>​​</p>
+<p id="polarion_42" style="margin-left: 40px;"><br><img src="attachment:unsupported_object.png"><br><img src="attachment:image3.png" style="width: 288px;height: 183px;"></p>
+<p id="polarion_43" style="margin-left: 40px;"><br>​​</p>
+<ol id="polarion_44"><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Password should consist of one uppercase alphabet, one lowercase alphabet and special character ($, *, _)</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">User name should be at least eight characters or long.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">User name should be alphanumeric and do not contain any special characters.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Password should be at least eight characters.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">From date should be selected from calendar.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Shipping name should be in upper case letters</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Shipping Address should be alphanumeric and any special characters.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">City, State and Zip should be alphanumeric.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Product Information&nbsp;&nbsp;should be alphanumeric.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Credit card Number should be numeric only.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Expiration Date should be selected from calendar.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Order ID should be numeric only.</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Cancel may have direct link or mail ID (IT department).</span></li><li><span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;">Submit have direct link or mail ID (IT department).</span></li></ol>
+<p id="polarion_45"><br>​​</p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-416"></h3>
+<p id="polarion_46" style="margin-left: 80px;"><br>​​</p>
+<p id="polarion_47"><img src="attachment:Picture_3.png" style="width: 602px;height: 372px;"></p>
+<p id="polarion_48" style="margin-left: 80px;"><br>​​</p>
+<p id="polarion_49"><br>​​</p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=TP-417"></h3>
+<p id="polarion_50" style="margin-left: 40px;"><br>​​</p>
+<ul id="polarion_51"><li><span style="font-weight: bolder;font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;background-color: #FFFFFF;">Lack of intruder lockout:</span> <span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;background-color: #FFFFFF;">This enables attackers to attempt to crack passwords using any number of automated tools or manual processes.</span></li><li><span style="font-weight: bolder;font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;background-color: #FFFFFF;">Descriptive error messages:</span> <span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;background-color: #FFFFFF;">These error messages are displayed when incorrect application login credentials are entered.</span></li><li><span style="font-weight: bolder;font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;background-color: #FFFFFF;">Weak password requirements:</span> <span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;background-color: #FFFFFF;">Some web applications still allow passwords such as 111111 and abc123. According to security studies that come out every year and we shall see that weak passwords are a top contributor to security incidents and breaches.</span></li><li><span style="font-weight: bolder;font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;background-color: #FFFFFF;">Password complexity:</span> <span style="font-family: 'Times New Roman', Times, serif;font-size: 12pt;color: #000000;background-color: #FFFFFF;">In order to have secured credentials, user may forget their passwords by providing complex passwords.</span></li></ul>
+<p id="polarion_52">​​</p>
+]]>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Epic</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity</item>
+                        </struct>
+                        <struct>
+                            <item id="key">sidebarWorkItemFields</item>
+                            <item id="value">severity,status</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">epic</item>
+            </struct>
+            <struct>
+                <item id="label">Requirement</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">sidebarWorkItemFields</item>
+                            <item id="value">severity,status</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">requirement</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="title">FRS</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

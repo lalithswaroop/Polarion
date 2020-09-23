@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-run>
+    <field id="author">admin</field>
+    <field id="created">2020-09-23 15:23:17.016 +0530</field>
+    <field id="description" text-type="text/html" type="text/html">&lt;html&gt;&lt;head&gt;&lt;META http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;&lt;meta content="HTML Tidy for Java (vers. 26 Z&amp;aacute;ř 2004), see www.w3.org" name="generator"&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;This is a full manual test that includes all the manual test cases from the current project.&lt;/body&gt;&lt;/html&gt;</field>
+    <field id="environmentDescription" text-type="text/html" type="text/html">&lt;html&gt;&lt;head&gt;&lt;META http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;&lt;meta content="HTML Tidy for Java (vers. 27 Sep 2004), see www.w3.org" name="generator"&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Windows&lt;/body&gt;&lt;/html&gt;</field>
+    <field id="groupId">- -  enter build id - -</field>
+    <field id="platform" type="enum:platform">windows</field>
+    <field id="query">type:testcase AND testType:manual AND status:active</field>
+    <field id="records">
+        <list>
+            <struct>
+                <item id="comment" text-type="text/html">
+                    <![CDATA[Failed<br/>
+<span style="font-weight: bold;">Retest comment:</span><br/>]]>
+                </item>
+                <item id="defect">TP-453</item>
+                <item id="duration">9.0</item>
+                <item id="executed">2020-09-23 15:36:43.286 +0530</item>
+                <item id="executedBy">admin</item>
+                <item id="testCase">TP-450</item>
+                <item id="testCaseRevision">53</item>
+                <item id="testParameters">
+                    <list>
+                        <struct>
+                            <item id="name">Browser</item>
+                            <item id="rawValue">chrome</item>
+                        </struct>
+                        <struct>
+                            <item id="name">Os</item>
+                            <item id="rawValue">windows</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="testStepResults">
+                    <list>
+                        <struct/>
+                    </list>
+                </item>
+            </struct>
+        </list>
+    </field>
+    <field id="selectTestCasesBy">dynamicQueryResult</field>
+    <field id="status">inProgress</field>
+    <field id="template">Full Manual System Test</field>
+    <field id="testParameters">
+        <struct>
+            <item id="parameterDefinitions">
+                <list>
+                    <struct>
+                        <item id="name">Browser</item>
+                    </struct>
+                    <struct>
+                        <item id="name">Os</item>
+                    </struct>
+                </list>
+            </item>
+            <item id="parameters">
+                <list>
+                    <struct>
+                        <item id="name">Browser</item>
+                        <item id="rawValue">chrome</item>
+                    </struct>
+                    <struct>
+                        <item id="name">Os</item>
+                        <item id="rawValue">windows</item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+    <field id="title">Login</field>
+    <field id="type">manual</field>
+    <field id="useReportFromTemplate">true</field>
+</test-run>

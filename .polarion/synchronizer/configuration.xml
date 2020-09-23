@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<syncConfiguration>
+    <syncPairs>
+        <syncPair id="Jira_Polarion" newItemDirection="BIDIRECTIONAL" reAddMissingOnRight="false">
+            <left xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="polarionProxyConfiguration" accountVaultKey="admin" document="" query="type:task" space="" useCurrentUser="false" useTitleAsRoot="true">
+                <ignoreStructureLinks>false</ignoreStructureLinks>
+            </left>
+            <right xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jiraProxyConfiguration" project="Test_Project" query="issuetype = task" connection="Jira_Polarion"/>
+            <mapping>
+                <defaultMappingGroup>
+                    <fieldMapping left="type" right="type" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="defect" right="Bug"/>
+                    </fieldMapping>
+                    <fieldMapping left="title" right="summary" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="description" right="description" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="attachments" right="attachments" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="comments" right="comments" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="hyperlinks" right="com.polarion.synchronizer:item-url" direction="RIGHT_TO_LEFT" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="status" right="status" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="open" right="Open"/>
+                        <replace left="accepted" right="Open"/>
+                        <replace left="inprogress" right="In Progress"/>
+                        <replace left="resolved" right="Resolved"/>
+                        <replace left="reopened" right="Reopened"/>
+                        <replace left="closed" right="Closed"/>
+                    </fieldMapping>
+                    <fieldMapping left="resolution" right="resolution" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="invalid" right="Invalid"/>
+                        <replace left="duplicate" right="Duplicate"/>
+                        <replace left="incomplete" right="Incomplete"/>
+                        <replace left="done" right="Done"/>
+                        <replace left="done" right="Fixed"/>
+                        <replace left="wontfix" right="Won't Fix"/>
+                        <replace left="later" right="Won't Fix"/>
+                        <replace left="cannotreproduce" right="Cannot Reproduce"/>
+                    </fieldMapping>
+                    <fieldMapping left="assignee" right="assignee" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="initialEstimate" right="timetracking.originalEstimate" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="timeSpent" right="timetracking.timeSpent" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="remainingEstimate" right="timetracking.remainingEstimate" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="categories" right="components" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="linkedWorkItems" right="relations" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="duplicates" right="Duplicate"/>
+                        <replace left="relates_to" right="Relates"/>
+                        <replace left="relates_to" right="Blocks"/>
+                        <replace left="duplicates" right="Cloners"/>
+                    </fieldMapping>
+                </defaultMappingGroup>
+                <fieldMappingGroup leftType="defect" rightType="Bug"/>
+            </mapping>
+        </syncPair>
+        <syncPair id="Test" newItemDirection="BIDIRECTIONAL" reAddMissingOnRight="false">
+            <left xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="polarionProxyConfiguration" accountVaultKey="connectors.Test_Project.Test.default" query="Task" useCurrentUser="false" useTitleAsRoot="false">
+                <ignoreStructureLinks>false</ignoreStructureLinks>
+            </left>
+            <right xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jiraProxyConfiguration" project="Test_Project" query="Task" connection="Test"/>
+            <mapping>
+                <defaultMappingGroup>
+                    <fieldMapping left="type" right="type" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                </defaultMappingGroup>
+            </mapping>
+        </syncPair>
+    </syncPairs>
+    <connections>
+        <connection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jiraConnection" serverUrl="http://localhost:8080/" id="Jira_Polarion"/>
+        <connection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jiraConnection" serverUrl="http://localhost:8080/" id="Test"/>
+    </connections>
+</syncConfiguration>

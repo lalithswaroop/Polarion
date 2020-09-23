@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories>
+  <GitHub>
+    <id>lalithswaroop</id>
+    <name>Lalith Swaroop</name>
+    <apiUrl>https://api.github.com</apiUrl>
+    <repositoryOwner>LalithSwaroop</repositoryOwner>
+    <repositoryName>LSP</repositoryName>
+  </GitHub>
+  <git>
+    <id>GIT</id>
+    <name>GIT_Polarion</name>
+    <localRepository>C:\Users\mglocadmin\Desktop\GIT</localRepository>
+    <isMaster>true</isMaster>
+  </git>
+</repositories>

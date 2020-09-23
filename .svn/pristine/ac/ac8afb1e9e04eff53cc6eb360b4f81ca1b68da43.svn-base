@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2020-09-14 20:06:40.269 +0530</field>
+    <field id="priority">50.0</field>
+    <field id="severity">should_have</field>
+    <field id="status">open</field>
+    <field id="title">1.2 Intended audience and Intended use</field>
+    <field id="type">heading</field>
+</work-item>

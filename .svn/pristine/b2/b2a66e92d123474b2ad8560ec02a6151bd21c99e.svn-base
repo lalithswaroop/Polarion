@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2020-09-22 19:39:52.998 +0530</field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="severity">basic</field>
+    <field id="status">active</field>
+    <field id="testCaseID" type="string">1</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                    <item>ActualResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html"> 1</item>
+                                <item text-type="text/html">
+                                    <![CDATA[User shall provide the username and password should be alpha numeric<br/>
+        <span class="polarion-rte-testParameter" data-name="Browser">Browser</span> <br/>
+        <span class="polarion-rte-testParameter" data-name="Os">Os</span> ]]>
+                                </item>
+                                <item text-type="text/html"> pass</item>
+                                <item text-type="text/html"> pass</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+    <field id="testType" type="enum:testtype">manual</field>
+    <field id="title">Login Page</field>
+    <field id="type">testcase</field>
+</work-item>

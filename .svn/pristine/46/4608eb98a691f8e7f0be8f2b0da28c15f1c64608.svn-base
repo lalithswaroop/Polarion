@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoassignment>
+    <rule>
+        <condition>
+            <field id="description">
+                <expression>*login*</expression>
+            </field>
+
+        </condition>
+
+        <assignee>
+            <user id="admin"/>
+        </assignee>
+
+    </rule>
+
+</autoassignment>
